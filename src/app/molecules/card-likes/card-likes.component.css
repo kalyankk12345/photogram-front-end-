@@ -1,0 +1,12 @@
+.card-likes{
+    display: flex;
+    align-items: center;
+}
+a{
+  display: inline-block;
+  color: #90949c;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}

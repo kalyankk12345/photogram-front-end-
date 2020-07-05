@@ -1,0 +1,6 @@
+<div>
+  <app-header></app-header>
+  <app-card *ngFor='let p of posts' [link]='p.ImageUrl' [propic]='p.profUrl' [proname]='p.Title' [time]='p.Time' [like]='p.likedPeople' [video]='p.video'></app-card>
+  <app-menu></app-menu>
+
+</div>

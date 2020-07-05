@@ -1,0 +1,16 @@
+div{
+    padding: 0 14px;
+}
+.title > a {
+  font-family: Helvetica;
+  font-size:14px;
+  font-weight: bold;
+  line-height: 1.38;
+  color: #365899;
+  text-decoration:none;
+  margin-bottom:2px;
+}
+
+.title > a:hover {
+  text-decoration:underline;
+}

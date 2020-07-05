@@ -1,0 +1,8 @@
+<div >
+  <img class='center' *ngIf="typeClassName!='type-circle'&&vid=='false'"  [src]="url" [width]="size">
+  <img class='round' *ngIf="typeClassName=='type-circle'&&vid=='false'" [src]='url' [width]='size'>
+  <video class='video1' (mouseenter)='toggleVideo()' (mouseleave)='toggleVideo1()' *ngIf='vid=="true"' class='postimg' #myVideo >
+    <source [src]='url' type="video/mp4">
+  </video>
+</div>
+

@@ -1,0 +1,19 @@
+.round{
+  float:left;
+  margin-right:8px;
+  border-radius:50%;
+  width: 50px;
+  height:40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 38%;
+}
+.video1
+{
+  margin: 0 auto;
+   width: 400px;
+}
